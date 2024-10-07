@@ -1,1 +1,82 @@
-Hi
+H<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form</title>
+    <link rel="icon" type="image/x-icon" href="https://rmkcet.ac.in/images/logo-fo.png">
+<style>
+    body{
+        background-color:gray;
+    }
+    div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border-style: solid;
+  border-width: 15px;
+  border-color: sandybrown;
+  padding: 20px;
+}
+h1{
+    padding: 20px;
+    background-color: black;
+    color: gold;
+    border-style:solid;
+    border-width: 15px;
+    border-color: crimson;
+    font-size: x-large;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <div>
+    <form action="https://script.google.com/macros/s/AKfycbzQ2SIRFaRAS-09soFeMOw3K1eZJ-5tlI3N6M8Bjlq1rd5kEj3tlbl3ZSZFxLaD_0xC/exec" method="post">
+        <table>
+            <tr>
+                <td>Name:</td> <td> <input type="text" name="Name" placeholder="Enter your name"> </td>
+            </tr>
+            <tr>
+                <td>Semester</td> <td> <input type="number" name="Semester" placeholder="Enter the semester you are studying"></td>
+            </tr>
+            <tr>
+                <td>Year of Admission</td> <td> <input type="number" name="Year" placeholder="Enter the year of Admission"></td>
+            </tr>
+            <tr>
+                <td>Gender</td> 
+                <td>
+                <select name="Gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Department</td>
+                <td>
+                    <select name="Department">
+                        <option>Computer Science</option>
+                        <option>Electronics and Communication</option>
+                        <option>Artifitial Intelligence and Data Science</option>
+                        <option>Mechanical</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload payment Screen-shot</td>
+                <td><input type="file" name="Screenshot"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
